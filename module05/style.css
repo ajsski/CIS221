@@ -1,0 +1,40 @@
+.parent {
+	display: grid;
+	grid-template: auto 1fr auto / auto 1fr auto;
+	grid-template-columns: minmax(150px, 25%) 1fr minmax(150px, 25%);
+	text-align: center;
+	font-family: arial, sans-serif;
+	color: #333;
+	font-size: 1.5em;
+  	}
+  
+.header {
+  	background-color: green;
+	padding: 30px 0 30px 0;
+    grid-column: 1 / 4;
+    }
+
+.left-side {
+    background-color: yellow;
+    grid-column: 1 / 2;
+	padding: 150px 0 150px 0;
+	}
+
+.main {
+    background-color: blue;
+    grid-column: 2 / 3;
+	padding: 150px 0 150px 0;
+
+	}
+
+.right-side {
+	background-color: red;
+	grid-column: 3 / 4;
+	padding: 150px 0 150px 0;
+
+	}
+.footer {
+    background-color: #999999;
+    grid-column: 1 / 4;
+	padding: 15px 0 15px 0;
+	}
