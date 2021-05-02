@@ -1,0 +1,199 @@
+.parent {
+	display: grid;
+	grid-template: auto 1fr auto / auto 1fr auto;
+	grid-template-columns: minmax(150px, 25%) 1fr minmax(150px, 25%);
+	font-family: "Arial Narrow", Helvetica, sans-serif;
+	background-color: rgb(255,255,255);
+  	}
+  
+
+body {    
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f1e767+0,feb645+100;Yellow+3D */
+background: #f1e767; /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover,  #f1e767 0%, #feb645 100%); /* FF3.6-15 */
+background: -webkit-radial-gradient(center, ellipse cover,  #f1e767 0%,#feb645 100%); /* Chrome10-25,Safari5.1-6 */
+background: radial-gradient(ellipse at center,  #f1e767 0%,#feb645 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1e767', endColorstr='#feb645',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+
+
+/* a wrapper around all the actual page content
+this will be centered on the page*/
+#wrapper {
+    margin: 3px auto;
+    position: relative;
+    width: calc(100% - 20px);
+    max-width: 1000px;
+    background: rgba(255,255,255,0.75);
+    border-radius: 5px;
+    box-shadow: 0px 0px 1px 2px rgba(0,0,0,0.25);
+}
+ 
+#header {
+  	background-color: rgb(51,51,51);
+  	color: rgb(255,255,255);
+	padding: 2rem;
+    grid-column: 1 / 4;
+	font-size: 1.75em;
+	text-transform: uppercase;
+	text-align: center;
+	background-image: url(images/HomeworkHelpersLogoThmb.jpg); 
+	background-repeat: no-repeat;
+    }
+
+#left-side {
+    grid-column: 1 / 2;
+    background-color: rgb(255,255,255);
+	color: rgb(51,51,51);
+	font-size: 1.25em;
+	text-align: left;
+	}
+	
+#left-side nav a {
+	text-decoration: none;
+	color: rgb(51,51,51);
+	}
+
+#main  {
+    background-color: rgb(255,255,255);
+    grid-column: 2 / 3;
+	margin-left: auto;
+	margin-right: auto;
+	font-size:1em;
+	text-align: left;
+	border-left: 10px solid white;
+	border-right: 10px solid white;
+	color: rgb(51,51,51);
+	}
+		
+.subtext {
+	font-size: 1.5em;
+	}
+	
+.subtext3 {
+	font-size: 1.2em;
+	font-style: italic;
+	}
+	
+.copy {
+	font-size: 1em;
+	color: rgb(51,51,51);
+}
+		
+
+
+#right-side {
+    background-color: rgb(255,255,255);
+	grid-column: 3 / 4;
+	width: auto;
+	margin: 0 auto;
+    position: relative;
+    padding: 0;
+	}
+	
+.homework .aspect-ratio {
+	height: 0;
+	width: 100%;
+	padding-bottom: 75%;
+	position: relative;
+}
+
+.homework .aspect-ratio img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+}
+    	
+#footer {
+  	background-color: rgb(51,51,51);
+    grid-column: 1 / 4;
+	padding: 15px 0 15px 0;
+	font-size: .40em;
+	font-style: italic;
+	color: rgb(255,255,255);
+	text-align: center;
+	}
+	
+.item1 { grid-area: 1 / 1 / 2 / 2; }
+.item2 { grid-area: 1 / 2 / 2 / 3; }
+.item3 { grid-area: 1 / 3 / 2 / 4; }
+.item4 { grid-area: 2 / 1 / 3 / 2; }
+.item5 { grid-area: 2 / 2 / 3 / 3; }
+.item6 { grid-area: 2 / 3 / 3 / 4; }
+
+.grid-container {
+  display: grid;
+  grid-auto-columns:auto;
+  grid-gap: 10px;
+  background-color: #feb645;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.3);
+  text-align: left;
+  padding: 5px;
+}
+
+.label 	{
+	color: rgb(51,51,51);
+	font-weight: bold;
+	font-size: 1.2em;
+	}
+form {
+	  border: 6px rgb(255,255,255) dotted;
+	  background-color: #feb645;
+	  padding: 4%;
+	  margin-bottom: 2em;
+
+#submit {
+	border-radius: 5px;
+	font-size: .8em;
+	background-color: #feb645;
+	
+}	  
+
+}
+
+
+
+
+/*
+
+
+}
+
+	
+/* for figure captions on .right-side 
+
+figure {
+	float: right;
+	width: 222px;
+	margin: 15px 10px 5px 10px;
+	}
+figure img {
+	border: 1px solid #666;
+	background-color: #CCC;
+	padding: 10px;
+	}	
+figcaption {
+	font: bold 1em/normal Veranda, Arial, Helvetica, sans-serif;
+	color: #333;
+	text-align: center;
+	background-image: linear-gradient(to bottom, #ff6600, white);
+	border: 1px, solid #666;
+	padding: 5px;
+	}	
+	
+	
+.toppingsDIV {
+  display: grid;
+  grid-auto-columns:auto;
+  
+}
+
+	
+*/
+	
